@@ -1,0 +1,6 @@
+start, #, Z1,       #, R
+Z1,    0, Z1,       0, R
+Z1,    #, stop-yes, #, R
+Z1,    1, stop-no,  1, R
+
+

@@ -1,0 +1,18 @@
+start,     #,  D1,     #,  R
+choose,    \0, GT-0,   \0, L
+choose,    \n, GT-0,   \n, L
+choose,    ?,  D1,     ?,  -
+GT-0,      #,  GT-1,   #,  L
+GT-1,      #,  GT-2,   #,  L
+GT-1,      ?,  GT-1,   ?,  L
+GT-2,      #,  D1,     #,  R
+GT-2,      ?,  GT-2,   ?,  L 
+decrement, #,  D1,     #,  R
+D1,        #,  D2,     #,  L
+D1,        ?,  D1,     ?,  R
+D2,        #,  stop,   #,  R 
+D2,        1,  D3,     0,  R
+D2,        ?,  D2,     ?,  L
+D3,        #,  choose, #,  R
+D3,        0,  D3,     1,  R
+

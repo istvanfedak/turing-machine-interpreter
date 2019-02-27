@@ -1,0 +1,6 @@
+GTB-0, #, GTB-1, #, L
+GTB-0, ?, GTB-0, ?, L
+GTB-1, #, GTB-2, #, L
+GTB-1, ?, GTB-1, ?, L
+GTB-2, #, stop,  #, -
+GTB-2, ?, GTB-2, ?, L

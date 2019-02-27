@@ -1,0 +1,14 @@
+start, #, SR,   #, R
+SR,    #, SR-#, 0, R
+SR,    0, SR-0, 0, R
+SR,    1, SR-1, 0, R
+SR-0,  0, SR-0, 0, R
+SR-0,  1, SR-1, 0, R
+SR-0,  #, SR-#, 0, R
+SR-1,  0, SR-0, 1, R
+SR-1,  1, SR-1, 1, R
+SR-1,  #, SR-#, 1, R
+SR-#,  0, SR-0, #, R
+SR-#,  1, SR-1, #, R
+SR-#,  #, SR-#, #, R
+SR-#,  ?, stop, #, -
