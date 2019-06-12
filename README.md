@@ -23,24 +23,24 @@ terminal:
 Go into the interpreter folder and type one of the following two
 commands:
 
-  $ ./tm <turing-table-file-name> <input-string>
+    $ ./tm <turing-table-file-name> <input-string>
 
   or
 
-  $ ./tm <turing-tabe-file-name> -f <input-file-name>
+    $ ./tm <turing-tabe-file-name> -f <input-file-name>
 
 ## Shell commands
 
 When you start up the interpreter it will allow you to enter the following
 commands:
 
-   <enter>           - when pressing the enter key you go to the next state
-   h                 - halt program
-   r                 - run
-   q                 - run quietly
-   ru <state name>   - run until state name is reached
-   qu <state name>   - run quietly until state name is reached
-   t                 - print the current state of the tape
+    <enter>           - when pressing the enter key you go to the next state
+    h                 - halt program
+    r                 - run
+    q                 - run quietly
+    ru <state name>   - run until state name is reached
+    qu <state name>   - run quietly until state name is reached
+    t                 - print the current state of the tape
 
 ## Turing table format
 
@@ -50,7 +50,7 @@ state string.
 
 **State names are case insensitive!**
 
-<current state>, <char seen on tape>, <next state name>, <char writen on tape>, <direction>
+    <current state>, <char seen on tape>, <next state name>, <char writen on tape>, <direction>
 
 Sample table:
 
