@@ -11,12 +11,12 @@ around and I'll try to fix them.
 Go into the interpreter folder and type the following command into the
 terminal:
 
-  $ make
+    $ make
 
 To clean the interpreter folder type the following command into the
 terminal:
 
-  $ make clean
+    $ make clean
 
 ## Usage
 
