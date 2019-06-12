@@ -50,6 +50,8 @@ state string.
 
 **State names are case insensitive!**
 
+Table row format:
+
     <current state>, <char seen on tape>, <next state name>, <char writen on tape>, <direction>
 
 Sample table:
