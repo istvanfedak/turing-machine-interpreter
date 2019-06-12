@@ -1,10 +1,10 @@
-# Turing Machines Interpreter
+# Turing Machine Interpreter
 
-turing-machines is an MIT-licensed open source project that focuses on providing
+This interpreter is an MIT-licensed open source project that focuses on providing
 the best interpreter for your turing machine projects. It comes with many
 advanced features that set it appart from other turing interpreters.
 
-## Interpreter errors
+## Interpreter error handling
 When the interpreter reads in your turing table, it will check that it is in
 the proper format. Giving you useful error messages to common programming typos.
  
