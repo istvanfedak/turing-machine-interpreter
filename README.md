@@ -75,5 +75,5 @@ Sample table:
 ## Interpreter error handling
 
 The interpreter is very picky and it will be more than happy to point out
-any mistakes you made! This is was done on purpose so that the tables 
+any mistakes that were made! This is was done on purpose so that the tables 
 remain consistent.
